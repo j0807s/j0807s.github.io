@@ -3,7 +3,7 @@
 # Site wide configuration
 ####################################
 #
-title: Junsu Kim
+title: JUNSU KIM
 email: junsu0807@gmail.com
 description: A simple and awesome blog theme powered by jekyll.
 url: # the base hostname & protocol for your site
@@ -33,11 +33,11 @@ kramdown:
 ####################################
 #
 owner:
-  name: Leonids
+  name: JUNSU KIM
   avatar: leonids-logo.png
   job: "A jekyll theme"
   bio: "A simple and awesome blog theme powered by jekyll."
-  email:
+  email: junsu0807@gmail.com
   disqus-shortname:
   twitter: #username
   facebook: #username
