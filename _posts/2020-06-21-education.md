@@ -5,7 +5,7 @@ categories: [education]
 modified: 2020-06-21
 comments: true
 ---
-### Bachelor of Electrical and Computer Engineering [Mar 2014 - Feb 2021]
+### Bachelor of Electronic Engineering [Mar 2014 - Feb 2021]
 * #### Hanyang University, Seoul (Korea, Republic of)
 * ##### Overall GPA : 3.79/4.00 (Weighted GPA : 3.94/4.00)
 
