@@ -2,7 +2,8 @@
 ###################################
 # Site wide configuration
 ####################################
-#
+#i
+encoding: utf-8
 title: JUNSU KIM
 email: junsu0807@gmail.com
 description: A simple and awesome blog theme powered by jekyll.
@@ -34,9 +35,9 @@ kramdown:
 #
 owner:
   name: JUNSU KIM
-  avatar: leonids-logo.png
-  job: "A jekyll theme"
-  bio: "A simple and awesome blog theme powered by jekyll."
+  avatar: Profile.jpg
+  job: ""
+  bio: "Hi, I am a student who falls in love with computer things! I am looking for an opportunity to research my interests. Thanks."
   email: junsu0807@gmail.com
   disqus-shortname:
   twitter: #username

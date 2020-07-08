@@ -46,13 +46,13 @@ section.post {
 
 // Post title
 .post-title {
-
+  font-size: 30px;
+  text-align: center;
 }
 
 .post-title-link {
 	color: $primary;
-	font-size: 14px;
-	margin-left: 10px;
+  font-size: 14px;
 	&:hover,
 	&:focus {
 		color: lighten($primary, 14%);
@@ -90,12 +90,14 @@ a.read-more {
 #post {
   padding-bottom: 50px;
   .post-header {
+    text-align: center;
     margin: 0 auto 50px;
   }
 }
 
 #post h1 {
   margin: 0.5em 0 1em;
+  text-align: center;
 }
 #post h2 {
   margin: 2em 0 0.8em;
