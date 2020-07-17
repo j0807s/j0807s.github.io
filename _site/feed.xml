@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JUNSU KIM</title>
-    <description>A simple and awesome blog theme powered by jekyll.</description>
+    <description>Junsu's Homepage</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>2020-07-08</pubDate>
-    <lastBuildDate>Wed, 08 Jul 2020 12:27:28 +0200</lastBuildDate>
+    <pubDate>2020-07-17</pubDate>
+    <lastBuildDate>Fri, 17 Jul 2020 10:34:51 +0200</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
     
       <item>
         <title>RESEARCH INTEREST</title>
         <description>&lt;p&gt;&lt;img src=&quot;img/Icons.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;h5 id=&quot;i-am-interested-in-the-field-of-memory-and-storage-systems-and-computer-architecture-that-are-closely-related-to-building-a-data-centric-system-also-i-would-like-to-adopt-machine-learning-to-the-aforementioned-fields-through-my-research-i-hope-that-future-computers-overcome-the-fundamental-latency-problem&quot;&gt;I am interested in the field of memory and storage systems and computer architecture that are closely related to building a data-centric system. Also, I would like to adopt machine learning to the aforementioned fields. Through my research, I hope that future computers overcome the fundamental latency problem.&lt;/h5&gt;
+&lt;h5 id=&quot;i-am-interested-in-the-fields-of-memory-and-storage-systems-and-computer-architecture-that-are-closely-related-to-building-a-data-centric-system-also-i-would-like-to-adopt-machine-learning-to-the-aforementioned-fields-through-my-research-i-hope-that-future-computers-overcome-the-fundamental-latency-problem&quot;&gt;I am interested in the fields of memory and storage systems and computer architecture that are closely related to building a data-centric system. Also, I would like to adopt machine learning to the aforementioned fields. Through my research, I hope that future computers overcome the fundamental latency problem.&lt;/h5&gt;
 
 </description>
-        <pubDate>2020-07-08</pubDate>
+        <pubDate>2020-07-17</pubDate>
         <link>http://localhost:4000/articles/2020-06/research-interest</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2020-06/research-interest</guid>
         
@@ -26,7 +26,7 @@
     
       <item>
         <title>EDUCATION</title>
-        <description>&lt;h3 id=&quot;bachelor-of-electrical-and-computer-engineering-mar-2014---feb-2021&quot;&gt;Bachelor of Electrical and Computer Engineering [Mar 2014 - Feb 2021]&lt;/h3&gt;
+        <description>&lt;h3 id=&quot;bachelor-of-electronic-engineering-mar-2014---feb-2021&quot;&gt;Bachelor of Electronic Engineering [Mar 2014 - Feb 2021]&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;h4 id=&quot;hanyang-university-seoul-korea-republic-of&quot;&gt;Hanyang University, Seoul (Korea, Republic of)&lt;/h4&gt;
@@ -40,7 +40,7 @@
 &lt;/ul&gt;
 
 </description>
-        <pubDate>2020-07-08</pubDate>
+        <pubDate>2020-07-17</pubDate>
         <link>http://localhost:4000/articles/2020-06/education</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2020-06/education</guid>
         
@@ -50,11 +50,25 @@
       </item>
     
       <item>
-        <title>PROJECTS</title>
-        <description>&lt;h3 id=&quot;1-project-for-graduation-coming-soon&quot;&gt;1. Project for Graduation (Coming soon..)&lt;/h3&gt;
-
-&lt;h3 id=&quot;2-accelerating-deeplearning-workloads-using-compiler&quot;&gt;2. Accelerating Deeplearning Workloads using Compiler&lt;/h3&gt;
-&lt;ul&gt;
+        <title>Graduation Project</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;to-be-appeared&quot;&gt;To be appeared..&lt;/h4&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>2020-07-17</pubDate>
+        <link>http://localhost:4000/articles/2020-06/projects-grad</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2020-06/projects-grad</guid>
+        
+        
+        <category>projects</category>
+        
+      </item>
+    
+      <item>
+        <title>Aceelerating Deeplearning Workloads using Compiler</title>
+        <description>&lt;ul&gt;
   &lt;li&gt;
     &lt;h4 id=&quot;conducted-in-cass-lab-in-hanyang-university-advised-by-prof-yongjun-park&quot;&gt;Conducted in Cass Lab in Hanyang University, Advised by Prof. Yongjun Park&lt;/h4&gt;
   &lt;/li&gt;
@@ -72,51 +86,91 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;3-captcha-project--building-a-machine-reads-distorted-text&quot;&gt;3. CAPTCHA PROJECT : Building a Machine Reads Distorted Text&lt;/h3&gt;
-&lt;ul&gt;
+</description>
+        <pubDate>2020-07-17</pubDate>
+        <link>http://localhost:4000/articles/2020-06/projects-taso</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2020-06/projects-taso</guid>
+        
+        
+        <category>projects</category>
+        
+      </item>
+    
+      <item>
+        <title>CAPTCHA PROJECT : Building a Machine Reads Distorted Text</title>
+        <description>&lt;ul&gt;
   &lt;li&gt;
-    &lt;h4 id=&quot;achieved-93-of-the-accuracy-while-adopting-transfer-learning-to-the-machine&quot;&gt;Achieved 93% of the accuracy while adopting Transfer Learning to the machine&lt;/h4&gt;
+    &lt;h4 id=&quot;achieved-99-of-the-accuracy&quot;&gt;Achieved 99% of the accuracy&lt;/h4&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;h4 id=&quot;problem--a-small-train-set-which-caused-overfitting-and-low-accuracy&quot;&gt;Problem : A small train set which caused overfitting and low accuracy&lt;/h4&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;h4 id=&quot;idea--used-data-augmentation-and-transfer-learning-to-avoid-overfitting-while-raising-the-accuracy&quot;&gt;Idea : Used data augmentation and Transfer Learning to avoid overfitting while raising the accuracy&lt;/h4&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;h4 id=&quot;implementation-&quot;&gt;Implementation :&lt;/h4&gt;
-    &lt;h4 id=&quot;used-otsus-method-morphological-opening-to-remove-noise&quot;&gt;Used Otsu’s method, morphological opening to remove noise&lt;/h4&gt;
-    &lt;h4 id=&quot;adopted-data-augmentation-and-transfer-learning-to-avoid-overfitting&quot;&gt;Adopted data augmentation and Transfer Learning to avoid overfitting&lt;/h4&gt;
+    &lt;h4 id=&quot;idea--used-data-augmentation-and-transfer-learning-to-avoid-overfitting-while-increasing-the-accuracy&quot;&gt;Idea : Used data augmentation and Transfer Learning to avoid overfitting while increasing the accuracy&lt;/h4&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;h4 id=&quot;result-&quot;&gt;Result :&lt;/h4&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;h4 id=&quot;-2&quot;&gt;&lt;img src=&quot;img/CAPTCHA.JPG&quot; alt=&quot;&quot; /&gt;&lt;/h4&gt;
+    &lt;h4&gt;&lt;img src=&quot;img/Models_compare.PNG&quot; alt=&quot;&quot; /&gt;&lt;/h4&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;h4 id=&quot;-3&quot;&gt;&lt;img src=&quot;img/CAPTCHA2.JPG&quot; alt=&quot;&quot; /&gt;&lt;/h4&gt;
+    &lt;h4 id=&quot;-1&quot;&gt;&lt;img src=&quot;img/Models_result.PNG&quot; alt=&quot;&quot; /&gt;&lt;/h4&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;4-implementing-hdl-programs-in-fpga&quot;&gt;4. Implementing HDL Programs in FPGA&lt;/h3&gt;
+&lt;!--more--&gt;
 &lt;ul&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;implementation&quot;&gt;Implementation:&lt;/h4&gt;
+    &lt;p&gt;&lt;img src=&quot;img/CAPTCHA.JPG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;img/Alexnet.PNG&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;img/Models_compare.PNG&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;img/Models_result.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>2020-07-17</pubDate>
+        <link>http://localhost:4000/articles/2019-06/projects-captcha</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2019-06/projects-captcha</guid>
+        
+        
+        <category>projects</category>
+        
+      </item>
+    
+      <item>
+        <title>Implementing HDL Programs in FPGA</title>
+        <description>&lt;ul&gt;
   &lt;li&gt;
     &lt;h4 id=&quot;trained-using-verilog--fir-filter-mealy-and-moore-machine-design&quot;&gt;Trained using Verilog : FIR Filter, Mealy and Moore machine design&lt;/h4&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;h4 id=&quot;implement-led-controller-and-seven-segment-controller-in-fpga&quot;&gt;Implement LED controller and seven segment controller in FPGA&lt;/h4&gt;
+    &lt;h4 id=&quot;implemented-led-controller-and-seven-segment-controller-in-fpga&quot;&gt;Implemented LED controller and seven segment controller in FPGA&lt;/h4&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;h4 id=&quot;implement-vga-controller-in-fpga&quot;&gt;Implement VGA controller in FPGA&lt;/h4&gt;
+    &lt;h4 id=&quot;implemented-vga-controller-in-fpga&quot;&gt;Implemented VGA controller in FPGA&lt;/h4&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;h4 id=&quot;-4&quot;&gt;&lt;img src=&quot;img/SOC.JPG&quot; alt=&quot;&quot; /&gt;&lt;/h4&gt;
+    &lt;h4&gt;&lt;img src=&quot;img/SOC.JPG&quot; alt=&quot;&quot; /&gt;&lt;/h4&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;5-embedded-system-software-design-used-achro-210t-board&quot;&gt;5. Embedded System Software Design (Used Achro 210T Board)&lt;/h3&gt;
-&lt;ul&gt;
+</description>
+        <pubDate>2020-07-17</pubDate>
+        <link>http://localhost:4000/articles/2019-05/projects-fpga</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2019-05/projects-fpga</guid>
+        
+        
+        <category>projects</category>
+        
+      </item>
+    
+      <item>
+        <title>Embedded System Software Design (Used Achro 210T Board</title>
+        <description>&lt;ul&gt;
   &lt;li&gt;
     &lt;h4 id=&quot;cross-compiled-bootloader-and-kernel--implemented-them-in-the-device&quot;&gt;Cross compiled bootloader and kernel &amp;amp; implemented them in the device&lt;/h4&gt;
   &lt;/li&gt;
@@ -128,9 +182,9 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>2020-07-08</pubDate>
-        <link>http://localhost:4000/articles/2020-06/projects</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/2020-06/projects</guid>
+        <pubDate>2020-07-17</pubDate>
+        <link>http://localhost:4000/articles/2019-05/projects-embed</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2019-05/projects-embed</guid>
         
         
         <category>projects</category>
