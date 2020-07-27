@@ -9,6 +9,7 @@ comments: true
 * #### Problem : A small train set which caused overfitting and low accuracy
 * #### Idea : Used data augmentation and Transfer Learning to avoid overfitting while increasing the accuracy 
 * #### Result :
+* #### ![](img/CAPTCHA.JPG)
 * #### ![](img/Models_compare.PNG)
 * #### ![](img/Models_result.PNG)
 
