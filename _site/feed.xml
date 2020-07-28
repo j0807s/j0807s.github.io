@@ -5,17 +5,22 @@
     <description>Junsu's Homepage</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>2020-07-21</pubDate>
-    <lastBuildDate>Tue, 21 Jul 2020 07:55:48 +0200</lastBuildDate>
+    <pubDate>2020-07-28</pubDate>
+    <lastBuildDate>Tue, 28 Jul 2020 18:38:28 +0200</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
     
       <item>
         <title>RESEARCH INTEREST</title>
-        <description>&lt;p&gt;&lt;img src=&quot;img/Icons.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;http://localhost:4000/img/Icons.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;h5 id=&quot;i-am-interested-in-the-fields-of-memory-and-storage-systems-and-computer-architecture-that-are-closely-related-to-building-a-data-centric-system-also-i-would-like-to-adopt-machine-learning-to-the-aforementioned-fields-through-my-research-i-hope-that-future-computers-overcome-the-fundamental-latency-problem&quot;&gt;I am interested in the fields of memory and storage systems and computer architecture that are closely related to building a data-centric system. Also, I would like to adopt machine learning to the aforementioned fields. Through my research, I hope that future computers overcome the fundamental latency problem.&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;if-you-feel-interested-here-is-my-cv&quot;&gt;If you feel interested, Here is my &lt;a href=&quot;http://localhost:4000/img/CV.pdf&quot;&gt;CV&lt;/a&gt;&lt;/h4&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
 </description>
-        <pubDate>2020-07-21</pubDate>
+        <pubDate>2020-07-28</pubDate>
         <link>http://localhost:4000/articles/2020-06/research-interest</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2020-06/research-interest</guid>
         
@@ -32,7 +37,7 @@
     &lt;h4 id=&quot;hanyang-university-seoul-korea-republic-of&quot;&gt;Hanyang University, Seoul (Korea, Republic of)&lt;/h4&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;h5 id=&quot;overall-gpa--379400-weighted-gpa--394400&quot;&gt;Overall GPA : 3.79/4.00 (Weighted GPA : 3.94/4.00)&lt;/h5&gt;
+    &lt;h5 id=&quot;overall-gpa--379400-upperdivison-gpa--391400&quot;&gt;Overall GPA : 3.79/4.00 (Upperdivison GPA : 3.91/4.00)&lt;/h5&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;h5 id=&quot;hanyang-university-scholarship---full-tuition-7-semesters&quot;&gt;Hanyang University Scholarship - Full Tuition (7 Semesters)&lt;/h5&gt;
@@ -40,7 +45,7 @@
 &lt;/ul&gt;
 
 </description>
-        <pubDate>2020-07-21</pubDate>
+        <pubDate>2020-07-28</pubDate>
         <link>http://localhost:4000/articles/2020-06/education</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2020-06/education</guid>
         
@@ -57,7 +62,7 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>2020-07-21</pubDate>
+        <pubDate>2020-07-28</pubDate>
         <link>http://localhost:4000/articles/2020-06/projects-grad</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2020-06/projects-grad</guid>
         
@@ -79,15 +84,47 @@
     &lt;h4 id=&quot;observated-tasososp-2019-was-not-able-to-generate-optimal-computation-graphs-for-cpu&quot;&gt;Observated TASO(SOSP, 2019) was not able to generate optimal computation graphs for CPU&lt;/h4&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;h4&gt;&lt;img src=&quot;img/TASO_ORIGINAL.JPG&quot; alt=&quot;&quot; /&gt;&lt;/h4&gt;
+    &lt;h4&gt;&lt;img src=&quot;http://localhost:4000/img/TASO_ORIGINAL.JPG&quot; alt=&quot;&quot; /&gt;&lt;/h4&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;h4 id=&quot;-1&quot;&gt;&lt;img src=&quot;img/TASO_RESULT.PNG&quot; alt=&quot;&quot; /&gt;&lt;/h4&gt;
+    &lt;h4 id=&quot;-1&quot;&gt;&lt;img src=&quot;http://localhost:4000/img/TASO_RESULT.PNG&quot; alt=&quot;&quot; /&gt;&lt;/h4&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!--more--&gt;
+
+&lt;h4 id=&quot;1-what-is-taso&quot;&gt;1. What is TASO?&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;taso-is-the-framework-which-optimizes-the-computation-graphs-of-dnn-models-using-automatically-generated-and-verified-graph-transformations&quot;&gt;TASO is the framework which optimizes the computation graphs of DNN models using automatically generated and verified graph transformations.&lt;/h4&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;here-is-the-paper-taso_sosp2019&quot;&gt;Here is the paper &lt;a href=&quot;http://localhost:4000/img/TASO.pdf&quot;&gt;TASO_SOSP2019&lt;/a&gt;&lt;/h4&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;-2&quot;&gt;&lt;img src=&quot;http://localhost:4000/img/TASO_Workload.PNG&quot; alt=&quot;&quot; /&gt;&lt;/h4&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;2-problem&quot;&gt;2. Problem&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;taso-can-optimize-computation-graphs-for-the-certain-gpu-architectures-taso-requires-at-least-6gb-of-gddr&quot;&gt;TASO can optimize computation graphs for the certain GPU architectures; TASO requires at least 6GB of GDDR&lt;/h4&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;3-idea&quot;&gt;3. Idea&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;build-a-framework-that-automatically-generates-optimal-computation-graphs-for-inference-on-cpu&quot;&gt;Build a framework that automatically generates optimal computation graphs for inference on CPU&lt;/h4&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;wimpy-cores-need-small-and-optimal-computation-graphs-for-an-inference&quot;&gt;Wimpy cores need small and optimal computation graphs for an inference&lt;/h4&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
-        <pubDate>2020-07-21</pubDate>
+        <pubDate>2020-07-28</pubDate>
         <link>http://localhost:4000/articles/2020-06/projects-taso</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2020-06/projects-taso</guid>
         
@@ -112,10 +149,13 @@
     &lt;h4 id=&quot;result-&quot;&gt;Result :&lt;/h4&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;h4&gt;&lt;img src=&quot;img/Models_compare.PNG&quot; alt=&quot;&quot; /&gt;&lt;/h4&gt;
+    &lt;h4&gt;&lt;img src=&quot;http://localhost:4000/img/CAPTCHA.JPG&quot; alt=&quot;&quot; /&gt;&lt;/h4&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;h4 id=&quot;-1&quot;&gt;&lt;img src=&quot;img/Models_result.PNG&quot; alt=&quot;&quot; /&gt;&lt;/h4&gt;
+    &lt;h4 id=&quot;-1&quot;&gt;&lt;img src=&quot;http://localhost:4000/img/Models_compare.PNG&quot; alt=&quot;&quot; /&gt;&lt;/h4&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;-2&quot;&gt;&lt;img src=&quot;http://localhost:4000/img/Models_result.PNG&quot; alt=&quot;&quot; /&gt;&lt;/h4&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -123,16 +163,47 @@
 &lt;ul&gt;
   &lt;li&gt;
     &lt;h4 id=&quot;implementation&quot;&gt;Implementation:&lt;/h4&gt;
-    &lt;p&gt;&lt;img src=&quot;img/CAPTCHA.JPG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+    &lt;ol&gt;
+      &lt;li&gt;
+        &lt;h5 id=&quot;preprocessing-&quot;&gt;Preprocessing: &lt;img src=&quot;http://localhost:4000/img/Preprocessing.PNG&quot; alt=&quot;&quot; /&gt;&lt;/h5&gt;
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;h5 id=&quot;a-image-thresholding&quot;&gt;a) Image Thresholding&lt;/h5&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;h5 id=&quot;b-removing-small-objects-from-the-image&quot;&gt;b) Removing small objects from the image&lt;/h5&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;h5 id=&quot;c-cropping-useless-part-of-the-image&quot;&gt;c) Cropping useless part of the image&lt;/h5&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;h5 id=&quot;d-cropping-the-image-into-5-pieces&quot;&gt;d) Cropping the image into 5 pieces&lt;/h5&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;h5 id=&quot;data-augmentation&quot;&gt;Data augmentation:&lt;/h5&gt;
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;h5 id=&quot;data-augmentation-is-a-strategy-that-increases-the-diversity-of-data-available-for-training-models-without-actually-collecting-new-data&quot;&gt;Data augmentation is a strategy that increases the diversity of data available for training models, without actually collecting new data.&lt;/h5&gt;
+            &lt;p&gt;&lt;img src=&quot;http://localhost:4000/img/CAPTCHA.JPG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;h5 id=&quot;transfer-learning&quot;&gt;Transfer learning:&lt;/h5&gt;
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;h5 id=&quot;transfer-learning-is-a-machine-learning-method-where-a-model-developed-for-a-task-is-reused-as-the-starting-point-for-a-model-on-a-second-task-&quot;&gt;Transfer learning is a machine learning method where a model developed for a task is reused as the starting point for a model on a second task. &lt;img src=&quot;http://localhost:4000/img/Transferlearning.PNG&quot; alt=&quot;&quot; /&gt;&lt;/h5&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;img/Alexnet.PNG&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;img/Models_compare.PNG&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;img/Models_result.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
 </description>
-        <pubDate>2020-07-21</pubDate>
+        <pubDate>2020-07-28</pubDate>
         <link>http://localhost:4000/articles/2019-06/projects-captcha</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2019-06/projects-captcha</guid>
         
@@ -154,12 +225,12 @@
     &lt;h4 id=&quot;implemented-vga-controller-in-fpga&quot;&gt;Implemented VGA controller in FPGA&lt;/h4&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;h4&gt;&lt;img src=&quot;img/SOC.JPG&quot; alt=&quot;&quot; /&gt;&lt;/h4&gt;
+    &lt;h4&gt;&lt;img src=&quot;http://localhost:4000/img/SOC.JPG&quot; alt=&quot;&quot; /&gt;&lt;/h4&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
-        <pubDate>2020-07-21</pubDate>
+        <pubDate>2020-07-28</pubDate>
         <link>http://localhost:4000/articles/2019-05/projects-fpga</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2019-05/projects-fpga</guid>
         
@@ -182,7 +253,7 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>2020-07-21</pubDate>
+        <pubDate>2020-07-28</pubDate>
         <link>http://localhost:4000/articles/2019-05/projects-embed</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2019-05/projects-embed</guid>
         

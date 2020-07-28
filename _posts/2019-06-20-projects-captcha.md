@@ -16,11 +16,18 @@ comments: true
 
 <!--more-->
 * #### Implementation:
-![](img/CAPTCHA.JPG)
+1. ##### Preprocessing: ![]({{ site.url }}/img/Preprocessing.PNG)
+        * ##### a) Image Thresholding 
+        * ##### b) Removing small objects from the image 
+        * ##### c) Cropping useless part of the image 
+        * ##### d) Cropping the image into 5 pieces 
+2. ##### Data augmentation: 
+        * ##### Data augmentation is a strategy that increases the diversity of data available for training models, without actually collecting new data.
+        ![]({{ site.url }}/img/CAPTCHA.JPG) 
+3. ##### Transfer learning: 
+        * ##### Transfer learning is a machine learning method where a model developed for a task is reused as the starting point for a model on a second task. ![]({{ site.url }}/img/Transferlearning.PNG)
 
-![](img/Alexnet.PNG)
-![](img/Models_compare.PNG)
-![](img/Models_result.PNG)
+
 
 
 
