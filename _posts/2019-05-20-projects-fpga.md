@@ -8,5 +8,5 @@ comments: true
 * #### Trained using Verilog : FIR Filter, Mealy and Moore machine design
 * #### Implemented LED controller and seven segment controller in FPGA
 * #### Implemented VGA controller in FPGA
-* #### ![](img/SOC.JPG)
+* #### ![]({{ site.url }}/img/SOC.JPG)
 
