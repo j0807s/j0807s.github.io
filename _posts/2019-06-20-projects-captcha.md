@@ -3,6 +3,8 @@ layout: post
 title: "CAPTCHA PROJECT : Building a Machine Reads Distorted Text"
 categories: [projects]
 comments: true
+image:
+    feature: CAPTCHA.JPG
 ---
 
 * #### Achieved 99% of the accuracy 
