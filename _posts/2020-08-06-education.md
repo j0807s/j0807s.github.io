@@ -2,7 +2,7 @@
 layout: post
 title: EDUCATION
 categories: [education]
-modified: 2020-06-21
+modified: 2020-08-06
 comments: true
 ---
 ### Bachelor of Electronic Engineering [Mar 2014 - Feb 2021]
