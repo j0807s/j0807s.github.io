@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Embedded System Software Design (Used Achro 210T Board"
+title: "Embedded System Software Design (Used Achro 210T Board)"
 categories: [projects]
 comments: true
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Aceelerating Deeplearning Workloads using Compiler"
+title: "Accelerating Deeplearning Workloads using Compiler"
 categories: [projects]
 comments: true
 ---
