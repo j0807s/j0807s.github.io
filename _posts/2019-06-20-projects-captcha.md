@@ -5,10 +5,11 @@ categories: [projects]
 comments: true
 
 ---
-
-* #### Achieved 99% of the accuracy 
-* #### Problem : A small train set which caused overfitting and low accuracy
-* #### Idea : Used data augmentation and Transfer Learning to avoid overfitting while increasing the accuracy 
+* #### Built a system that can read distorted text 
+* #### Problem : A small train set(only 1000 samples) caused overfitting and a low accuracy
+* #### Idea : Increased the amount of the training set to avoid overfitting
+* #### Implementation : Used data augmentation approach and Transfer Learning
+* #### Contribution : Achieved the highest score at the class kaggle competition with only 1000 training samples (dataset from Wilhelmy, Rodrigo Rosas, Horacio)
 * #### Result :
 * #### ![]({{ site.url }}/img/CAPTCHA.JPG)
 * #### ![]({{ site.url }}/img/Models_compare.PNG)

@@ -5,14 +5,14 @@
     <description>Junsu's Homepage</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>2020-07-28</pubDate>
-    <lastBuildDate>Tue, 28 Jul 2020 19:21:43 +0200</lastBuildDate>
+    <pubDate>2020-09-30</pubDate>
+    <lastBuildDate>Wed, 30 Sep 2020 07:33:13 +0200</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
     
       <item>
         <title>RESEARCH INTEREST</title>
         <description>&lt;p&gt;&lt;img src=&quot;http://localhost:4000/img/Icons.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;h5 id=&quot;i-am-interested-in-the-fields-of-memory-and-storage-systems-and-computer-architecture-that-are-closely-related-to-building-a-data-centric-system-also-i-would-like-to-adopt-machine-learning-to-the-aforementioned-fields-through-my-research-i-hope-that-future-computers-overcome-the-fundamental-latency-problem&quot;&gt;I am interested in the fields of memory and storage systems and computer architecture that are closely related to building a data-centric system. Also, I would like to adopt machine learning to the aforementioned fields. Through my research, I hope that future computers overcome the fundamental latency problem.&lt;/h5&gt;
+&lt;h5 id=&quot;i-am-interested-in-building-an-intelligent-memory-storage-system-via-machine-learning-through-my-research-i-hope-that-future-computer-system-will-overcome-the-fundamental-structural-problems&quot;&gt;I am interested in building an intelligent memory, storage system via Machine Learning. Through my research, I hope that future computer system will overcome the fundamental, structural problems.&lt;/h5&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;h4 id=&quot;if-you-feel-interested-here-is-my-cv&quot;&gt;If you feel interested, Here is my &lt;a href=&quot;http://localhost:4000/img/CV.pdf&quot;&gt;CV&lt;/a&gt;&lt;/h4&gt;
@@ -20,9 +20,9 @@
 &lt;/ul&gt;
 
 </description>
-        <pubDate>2020-07-28</pubDate>
-        <link>http://localhost:4000/articles/2020-06/research-interest</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/2020-06/research-interest</guid>
+        <pubDate>2020-09-30</pubDate>
+        <link>http://localhost:4000/articles/2020-08/research-interest</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2020-08/research-interest</guid>
         
         
         <category>interest</category>
@@ -40,14 +40,14 @@
     &lt;h5 id=&quot;overall-gpa--379400-upperdivison-gpa--391400&quot;&gt;Overall GPA : 3.79/4.00 (Upperdivison GPA : 3.91/4.00)&lt;/h5&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;h5 id=&quot;hanyang-university-scholarship---full-tuition-7-semesters&quot;&gt;Hanyang University Scholarship - Full Tuition (7 Semesters)&lt;/h5&gt;
+    &lt;h5 id=&quot;hanyang-university-scholarship---full-scholarship-7-semesters&quot;&gt;Hanyang University Scholarship - Full Scholarship (7 Semesters)&lt;/h5&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
-        <pubDate>2020-07-28</pubDate>
-        <link>http://localhost:4000/articles/2020-06/education</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/2020-06/education</guid>
+        <pubDate>2020-09-30</pubDate>
+        <link>http://localhost:4000/articles/2020-08/education</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2020-08/education</guid>
         
         
         <category>education</category>
@@ -55,16 +55,32 @@
       </item>
     
       <item>
-        <title>Graduation Project</title>
+        <title>Detecting Rowhammer bitflips using ML</title>
         <description>&lt;ul&gt;
   &lt;li&gt;
-    &lt;h4 id=&quot;to-be-appeared&quot;&gt;To be appeared..&lt;/h4&gt;
+    &lt;h4 id=&quot;problem--revisiting-rowhammerisca2020-showed-only-10k-activations-can-cause-rowhammer-bitflips-and-indicated-that-rowhammer-threshold-decreases-if-the-device-feature-size-gets-smaller&quot;&gt;Problem : Revisiting RowHammer(ISCA’2020) showed only 10K activations can cause RowHammer bitflips and indicated that rowhammer threshold decreases if the device feature size gets smaller&lt;/h4&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;observation--related-worksdeterministic-probabilistic-approach-area-and-energy-overhead-increased-or-their-performance-became-lower-when-the-rowhammer-threshold-decreased&quot;&gt;Observation : Related works(Deterministic, Probabilistic approach)’ area and energy overhead increased or their performance became lower when the rowhammer threshold decreased&lt;/h4&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;idea-detecting-rowhammer-bitflips-using-ml&quot;&gt;Idea: Detecting rowhammer bitflips using ML&lt;/h4&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;implementation--still-working-on-this-since-2020-09-01&quot;&gt;Implementation : Still working on this (since 2020-09-01)&lt;/h4&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!--more--&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;detailed-motivation-dram-has-suffered-from-the-severe-reliability-problem-repetitive-access-to-the-same-rows-in-dram-can-cause-losing-data-also-the-newer-dram-chips-are-more-vulnerable-to-rowhammer-bitflip-indicating-that-attackers-can-destroy-the-memory-system-in-more-various-ways-if-the-device-feature-size-reduces-i-am-currently-trying-to-solve-this-problem-using-machine-learning-as-a-graduation-project-based-on-the-fact-that-machine-learning-models-have-powerful-capabilities-to-learn-complex-patterns&quot;&gt;Detailed Motivation: DRAM has suffered from the severe reliability problem; repetitive access to the same rows in DRAM can cause losing data. Also, the newer DRAM chips are more vulnerable to Rowhammer bitflip, indicating that attackers can destroy the memory system in more various ways if the device feature size reduces. I am currently trying to solve this problem using machine learning as a graduation project, based on the fact that machine learning models have powerful capabilities to learn complex patterns.&lt;/h4&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>2020-07-28</pubDate>
-        <link>http://localhost:4000/articles/2020-06/projects-grad</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/2020-06/projects-grad</guid>
+        <pubDate>2020-09-30</pubDate>
+        <link>http://localhost:4000/articles/2020-08/projects-grad</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2020-08/projects-grad</guid>
         
         
         <category>projects</category>
@@ -72,16 +88,58 @@
       </item>
     
       <item>
-        <title>Aceelerating Deeplearning Workloads using Compiler</title>
+        <title>Implementation of Retention time Aware Intelligent DRAM Refresh in DDR4</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;problem--refresh-operations-interfere-memory-accesses-and-waste-energy&quot;&gt;Problem : Refresh operations interfere memory accesses and waste energy&lt;/h4&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;observation--energy-and-performance-overhead-caused-by-refresh-operations-rised-when-the-device-integrity-increased&quot;&gt;Observation : Energy and performance overhead caused by refresh operations rised when the device integrity increased&lt;/h4&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;idea-applied-different-refresh-rate-for-strong-dram-cells-idea-from-raidrisca2012&quot;&gt;Idea: Applied different refresh rate for strong DRAM cells (idea from &lt;a href=&quot;http://localhost:4000/img/RAIDR.pdf&quot;&gt;RAIDR(ISCA’2012)&lt;/a&gt;)&lt;/h4&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;implementation--bloomfilter-to-store-the-information-of-weak-rows-in-memory-controller-ddr4-2133-configuration-file&quot;&gt;Implementation : Bloomfilter to store the information of weak rows in memory controller, DDR4-2133 configuration file&lt;/h4&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;evaluation--used-dramsim2-and-gem5-as-simulators-memory-intensive-benchmarks-from-spec-cpu2006&quot;&gt;Evaluation : Used DRAMSim2 and gem5 as simulators, memory intensive benchmarks from SPEC CPU2006&lt;/h4&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;contribution--came-up-with-the-result-that-raidr-averaged-12-performance-improvement-over-auto-refresh-scheme-in-ddr4&quot;&gt;Contribution : Came up with the result that RAIDR averaged 12% performance improvement over auto-refresh scheme in DDR4&lt;/h4&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4&gt;&lt;img src=&quot;http://localhost:4000/img/RAIDR_CONFIG.PNG&quot; alt=&quot;&quot; /&gt;&lt;/h4&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;-1&quot;&gt;&lt;img src=&quot;http://localhost:4000/img/RAIDR_RESULT.PNG&quot; alt=&quot;&quot; /&gt;&lt;/h4&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>2020-09-30</pubDate>
+        <link>http://localhost:4000/articles/2020-07/RAIDR</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2020-07/RAIDR</guid>
+        
+        
+        <category>projects</category>
+        
+      </item>
+    
+      <item>
+        <title>Accelerating Deeplearning Workloads using Compiler</title>
         <description>&lt;ul&gt;
   &lt;li&gt;
     &lt;h4 id=&quot;conducted-in-cass-lab-in-hanyang-university-advised-by-prof-yongjun-park&quot;&gt;Conducted in Cass Lab in Hanyang University, Advised by Prof. Yongjun Park&lt;/h4&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;h4 id=&quot;idea--automatically-generates-optimal-computation-graphs-for-inference-on-cpu&quot;&gt;Idea : Automatically generates optimal computation graphs for inference on CPU&lt;/h4&gt;
+    &lt;h4 id=&quot;problem--finding-optimal-compuation-graphs-for-each-architecture-requires-much-of-experts-hand-made-effort&quot;&gt;Problem : Finding optimal compuation graphs for each architecture requires much of experts’ hand-made effort&lt;/h4&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;h4 id=&quot;observated-tasososp-2019-was-not-able-to-generate-optimal-computation-graphs-for-cpu&quot;&gt;Observated TASO(SOSP, 2019) was not able to generate optimal computation graphs for CPU&lt;/h4&gt;
+    &lt;h4 id=&quot;observation--related-work-tasososp2019-was-not-able-to-generate-optimal-computation-graphs-for-cpu&quot;&gt;Observation : Related work (TASO(SOSP’2019)) was not able to generate optimal computation graphs for CPU&lt;/h4&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;idea--build-a-system-that-automatically-generates-optimal-computation-graphs-for-inference-on-cpu&quot;&gt;Idea : Build a system that automatically generates optimal computation graphs for inference on CPU&lt;/h4&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;h4&gt;&lt;img src=&quot;http://localhost:4000/img/TASO_ORIGINAL.JPG&quot; alt=&quot;&quot; /&gt;&lt;/h4&gt;
@@ -106,7 +164,7 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;2-problem&quot;&gt;2. Problem&lt;/h4&gt;
+&lt;h4 id=&quot;2-observation&quot;&gt;2. Observation&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;h4 id=&quot;taso-can-optimize-computation-graphs-for-the-certain-gpu-architectures-taso-requires-at-least-6gb-of-gddr&quot;&gt;TASO can optimize computation graphs for the certain GPU architectures; TASO requires at least 6GB of GDDR&lt;/h4&gt;
@@ -124,7 +182,7 @@
 &lt;/ul&gt;
 
 </description>
-        <pubDate>2020-07-28</pubDate>
+        <pubDate>2020-09-30</pubDate>
         <link>http://localhost:4000/articles/2020-06/projects-taso</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2020-06/projects-taso</guid>
         
@@ -137,13 +195,19 @@
         <title>CAPTCHA PROJECT : Building a Machine Reads Distorted Text</title>
         <description>&lt;ul&gt;
   &lt;li&gt;
-    &lt;h4 id=&quot;achieved-99-of-the-accuracy&quot;&gt;Achieved 99% of the accuracy&lt;/h4&gt;
+    &lt;h4 id=&quot;built-a-system-that-can-read-distorted-text&quot;&gt;Built a system that can read distorted text&lt;/h4&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;h4 id=&quot;problem--a-small-train-set-which-caused-overfitting-and-low-accuracy&quot;&gt;Problem : A small train set which caused overfitting and low accuracy&lt;/h4&gt;
+    &lt;h4 id=&quot;problem--a-small-train-setonly-1000-samples-caused-overfitting-and-a-low-accuracy&quot;&gt;Problem : A small train set(only 1000 samples) caused overfitting and a low accuracy&lt;/h4&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;h4 id=&quot;idea--used-data-augmentation-and-transfer-learning-to-avoid-overfitting-while-increasing-the-accuracy&quot;&gt;Idea : Used data augmentation and Transfer Learning to avoid overfitting while increasing the accuracy&lt;/h4&gt;
+    &lt;h4 id=&quot;idea--increased-the-amount-of-the-training-set-to-avoid-overfitting&quot;&gt;Idea : Increased the amount of the training set to avoid overfitting&lt;/h4&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;implementation--used-data-augmentation-approach-and-transfer-learning&quot;&gt;Implementation : Used data augmentation approach and Transfer Learning&lt;/h4&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;contribution--achieved-the-highest-score-at-the-class-kaggle-competition-with-only-1000-training-samples-dataset-from-wilhelmy-rodrigo-rosas-horacio&quot;&gt;Contribution : Achieved the highest score at the class kaggle competition with only 1000 training samples (dataset from Wilhelmy, Rodrigo Rosas, Horacio)&lt;/h4&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;h4 id=&quot;result-&quot;&gt;Result :&lt;/h4&gt;
@@ -203,7 +267,7 @@
 &lt;/ul&gt;
 
 </description>
-        <pubDate>2020-07-28</pubDate>
+        <pubDate>2020-09-30</pubDate>
         <link>http://localhost:4000/articles/2019-06/projects-captcha</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2019-06/projects-captcha</guid>
         
@@ -216,13 +280,10 @@
         <title>Implementing HDL Programs in FPGA</title>
         <description>&lt;ul&gt;
   &lt;li&gt;
-    &lt;h4 id=&quot;trained-using-verilog--fir-filter-mealy-and-moore-machine-design&quot;&gt;Trained using Verilog : FIR Filter, Mealy and Moore machine design&lt;/h4&gt;
+    &lt;h4 id=&quot;got-used-to-fpga-platform-and-verilog-by-coding-fir-filter-mealy-and-moore-machine&quot;&gt;Got used to FPGA platform and Verilog by coding FIR Filter, Mealy and Moore machine&lt;/h4&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;h4 id=&quot;implemented-led-controller-and-seven-segment-controller-in-fpga&quot;&gt;Implemented LED controller and seven segment controller in FPGA&lt;/h4&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;h4 id=&quot;implemented-vga-controller-in-fpga&quot;&gt;Implemented VGA controller in FPGA&lt;/h4&gt;
+    &lt;h4 id=&quot;implemented-led-seven-segment-vga-controller-in-fpga&quot;&gt;Implemented LED, seven segment, VGA controller in FPGA&lt;/h4&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;h4&gt;&lt;img src=&quot;http://localhost:4000/img/SOC.JPG&quot; alt=&quot;&quot; /&gt;&lt;/h4&gt;
@@ -230,7 +291,7 @@
 &lt;/ul&gt;
 
 </description>
-        <pubDate>2020-07-28</pubDate>
+        <pubDate>2020-09-30</pubDate>
         <link>http://localhost:4000/articles/2019-05/projects-fpga</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2019-05/projects-fpga</guid>
         
@@ -240,20 +301,20 @@
       </item>
     
       <item>
-        <title>Embedded System Software Design (Used Achro 210T Board</title>
+        <title>Embedded System Software Design (Used Achro 210T Board)</title>
         <description>&lt;ul&gt;
   &lt;li&gt;
     &lt;h4 id=&quot;cross-compiled-bootloader-and-kernel--implemented-them-in-the-device&quot;&gt;Cross compiled bootloader and kernel &amp;amp; implemented them in the device&lt;/h4&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;h4 id=&quot;coded-the-led-controller-which-controlled-leds-on-the-device&quot;&gt;Coded the LED controller which controlled LEDs on the device&lt;/h4&gt;
+    &lt;h4 id=&quot;coded-the-led-controller-in-achro-210t-board&quot;&gt;Coded the LED controller in Achro 210T board&lt;/h4&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;h4 id=&quot;displayed-image-files-using-frame-buffer&quot;&gt;Displayed image files using frame buffer&lt;/h4&gt;
+    &lt;h4 id=&quot;got-used-to-arm-assembly-language&quot;&gt;Got used to ARM Assembly language&lt;/h4&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>2020-07-28</pubDate>
+        <pubDate>2020-09-30</pubDate>
         <link>http://localhost:4000/articles/2019-05/projects-embed</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2019-05/projects-embed</guid>
         

@@ -5,5 +5,5 @@ categories: [projects]
 comments: true
 ---
 * #### Cross compiled bootloader and kernel & implemented them in the device
-* #### Coded the LED controller which controlled LEDs on the device
-* #### Displayed image files using frame buffer
+* #### Coded the LED controller in Achro 210T board
+* #### Got used to ARM Assembly language 
