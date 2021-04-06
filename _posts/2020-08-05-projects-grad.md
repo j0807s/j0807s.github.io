@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Detecting Rowhammer Attacks using Counting Bloom Filter"
+title: "Filter-based Protection against Rowhammer Attacks at Low Hardware Cost"
 categories: [projects]
 comments: true
 ---
-* #### 58th DAC poster accepted
+* #### Paper was selected to present a poster at 58th DAC
 
