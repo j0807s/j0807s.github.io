@@ -5,8 +5,8 @@
     <description>Junsu's Homepage</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>2020-09-30</pubDate>
-    <lastBuildDate>Wed, 30 Sep 2020 07:33:13 +0200</lastBuildDate>
+    <pubDate>2020-12-02</pubDate>
+    <lastBuildDate>Wed, 02 Dec 2020 07:42:34 +0100</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
     
       <item>
@@ -20,7 +20,7 @@
 &lt;/ul&gt;
 
 </description>
-        <pubDate>2020-09-30</pubDate>
+        <pubDate>2020-12-02</pubDate>
         <link>http://localhost:4000/articles/2020-08/research-interest</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2020-08/research-interest</guid>
         
@@ -45,7 +45,7 @@
 &lt;/ul&gt;
 
 </description>
-        <pubDate>2020-09-30</pubDate>
+        <pubDate>2020-12-02</pubDate>
         <link>http://localhost:4000/articles/2020-08/education</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2020-08/education</guid>
         
@@ -78,7 +78,7 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>2020-09-30</pubDate>
+        <pubDate>2020-12-02</pubDate>
         <link>http://localhost:4000/articles/2020-08/projects-grad</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2020-08/projects-grad</guid>
         
@@ -117,7 +117,7 @@
 &lt;/ul&gt;
 
 </description>
-        <pubDate>2020-09-30</pubDate>
+        <pubDate>2020-12-02</pubDate>
         <link>http://localhost:4000/articles/2020-07/RAIDR</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2020-07/RAIDR</guid>
         
@@ -182,7 +182,7 @@
 &lt;/ul&gt;
 
 </description>
-        <pubDate>2020-09-30</pubDate>
+        <pubDate>2020-12-02</pubDate>
         <link>http://localhost:4000/articles/2020-06/projects-taso</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2020-06/projects-taso</guid>
         
@@ -267,7 +267,7 @@
 &lt;/ul&gt;
 
 </description>
-        <pubDate>2020-09-30</pubDate>
+        <pubDate>2020-12-02</pubDate>
         <link>http://localhost:4000/articles/2019-06/projects-captcha</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2019-06/projects-captcha</guid>
         
@@ -291,7 +291,7 @@
 &lt;/ul&gt;
 
 </description>
-        <pubDate>2020-09-30</pubDate>
+        <pubDate>2020-12-02</pubDate>
         <link>http://localhost:4000/articles/2019-05/projects-fpga</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2019-05/projects-fpga</guid>
         
@@ -314,9 +314,32 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>2020-09-30</pubDate>
+        <pubDate>2020-12-02</pubDate>
         <link>http://localhost:4000/articles/2019-05/projects-embed</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2019-05/projects-embed</guid>
+        
+        
+        <category>projects</category>
+        
+      </item>
+    
+      <item>
+        <title>Embedded System Software Design (Used Achro 210T Board)</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;cross-compiled-bootloader-and-kernel--implemented-them-in-the-device&quot;&gt;Cross compiled bootloader and kernel &amp;amp; implemented them in the device&lt;/h4&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;coded-the-led-controller-in-achro-210t-board&quot;&gt;Coded the LED controller in Achro 210T board&lt;/h4&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;got-used-to-arm-assembly-language&quot;&gt;Got used to ARM Assembly language&lt;/h4&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>2020-12-02</pubDate>
+        <link>http://localhost:4000/articles/2019-05/example</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2019-05/example</guid>
         
         
         <category>projects</category>
