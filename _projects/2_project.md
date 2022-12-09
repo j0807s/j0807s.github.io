@@ -1,11 +1,40 @@
 ---
 layout: page
-title: project 2
+title: Towards Robust and Fast QNN Training with Multiple Quantum Machines
 description: a project with a background image
 img: assets/img/3.jpg
 importance: 2
 category: work
 ---
+
+### 1. Context
+*<u>Variational Quantum Algorithm</u>*
+
+* Quantum supremacy algorithms (e.g., Shor's and Grover's) require ~ $$ 10^6 $$
+ 
+
+
+### 2. Problems & Observation
+
+### 3. Challenges & Idea
+Chaellenges :
+(1) How to boost training speed?
+
+(2) How to show robust performance?
+
+Reseach Directions : 
+(1) Quantum Neural Architecture Searching for Multiple Quantum Machines 
+Generate optimal circuit architecture for quantum ensemble learning
+
+(2) Optimize Parameterized Quantum Circuit for Multiple Quantum Machines
+Optimize the given circuit for quantum ensemble learning 
+
+
+4. Implementations
+
+5. Results
+
+6. References
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
