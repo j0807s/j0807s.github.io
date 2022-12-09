@@ -8,10 +8,41 @@ category: work
 ---
 
 ### 1. Context
-*<u>Variational Quantum Algorithm</u>*
 
-* Quantum supremacy algorithms (e.g., Shor's and Grover's) require ~ $$ 10^6 $$
+## *<u>Variational Quantum Algorithm</u>*
+
+* Quantum supremacy algorithms (e.g., Shor's and Grover's) require ~ $$ 10^6 $$ error-tolerant qubits, which is infeasible to run on Noisy-Intermediate-Scale Quantum (NISQ) devices that provide 100-1000 error-prone qubits.
+
+* Whereas, Variational Quantum Algorithms (VQA) can potentially take advantage of NISQ devices by exploiting parameterized gates. Since their parameters can be dynamically adjusted, VQAs are robust to noise and can be designed to achieve quantum superiority with NISQ devices.
+
+* Now, we have three VQAs : Variational Quantum Eigensolver (VQE), Quantum Approximate Optimization Algorithm (QAOA), Quantum Neural Network (QNN). Optimizing parameterized gates in VQAs is following the optimization loop just like machine learning.
+
+
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/VQA_context.png" title="context" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Fig 1. A conceptual illustration of Variatial Quantum Algorithm learning.
+</div>
+
+## *<u>Training Quantum Neural Network</u>*
+
+* Training VQA is categorized into two parts:
+
+* (1) Training on a classical computer, Inferencing on a quantum computer
+
+- Strengths : Fast
+- Weaknesses : Not scalable, hard to capture device specific noise effect
+
+* (2) Training on a quantum computer, Inferencing on a quantum computer
+
+- Strenths : Scalable, robust to noise
+- Weaknesses : Extremely slow due to waiting cloud-based access to quantum machines from IBMQ
  
+
 
 
 ### 2. Problems & Observation
@@ -65,11 +96,11 @@ To give your project a background in the portfolio page, just add the img tag to
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/5.jpg" title="context" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Fig 1. A conceptual illustration of Variatial Quantum Algorithm learning.
 </div>
 
 You can also put regular text between your rows of images.
