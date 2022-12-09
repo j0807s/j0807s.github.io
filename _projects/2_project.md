@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Quantum Ensemble Learning
-description: a project with a background image
-img: assets/img/3.jpg
-importance: 2
+description: 
+img: assets/img/overall_arch.jpg
+importance: 1
 category: work
 ---
 
@@ -18,7 +18,7 @@ category: work
 * Now, we have three VQAs : Variational Quantum Eigensolver (VQE), Quantum Approximate Optimization Algorithm (QAOA), Quantum Neural Network (QNN). Optimizing parameterized gates in VQAs is following the optimization loop just like machine learning.
 
 
-</div>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/VQA_context.png" title="context" class="img-fluid rounded z-depth-1" %}
@@ -33,44 +33,55 @@ category: work
 * Training VQA is categorized into two parts:
 
 * (1) Training on a classical computer, Inferencing on a quantum computer
-
     * Strengths : Fast
     * Weaknesses : Not scalable, hard to capture device specific noise effect
 
 * (2) Training on a quantum computer, Inferencing on a quantum computer
-
     * Strenths : Scalable, robust to noise
     * Weaknesses : Extremely slow due to waiting cloud-based access to quantum machines from IBMQ, still vulerable to dynamically chainging machine status (i.e., noise)
- 
 
- #### *<u>Quantum Ensemble Learning</u>*
 
-* In order to mitigate slow training time and machine dependent noise, EQC proposed a framework that uses multiple quantum achine for training VQA [1].
+#### *<u>Quantum Ensemble Learning</u>*
 
-* EQC framework updated a model with Asynchronos Stochastic Gradient Descent (ASGD) and weighted a gradient update according to each machine and its noise level.
+* In order to mitigate slow training speed and machine dependent noise, EQC proposed a framework that uses multiple quantum achine for training VQA [1].
+
+* EQC framework updated a model with Asynchronos Stochastic Gradient Descent (ASGD), and weighted a gradient update according to each machine and its noise level with the transpiled circuit.
 
 * $$ \theta_{t+1} = P_{correct} \alpha \theta_{t} $$
 
-* Where, $$ P_{correct} = e^{-CD {\mu_{t} - G_1 + \mu_{t} - G_2  \over 2} \over T_1 T_2} (1-\gamma)^{G_1} (1-\beta)^{G_2} (1-\omega)^{M} $$
+* $$ P_{correct} = e^{-CD {\mu_{t} - G_1 + \mu_{t} - G_2  \over 2} \over T_1 T_2} (1-\gamma)^{G_1} (1-\beta)^{G_2} (1-\omega)^{M} $$
 
-* $$ \alpha $$ is a learning rate, $$CD$$ means a circuit depth, $$ G_1 G_2 $$ are the number of single and dual gate operations, $$ \omega $$ is the measurement error rate and $$ M $$ is the number of measurement
+* Where, $$ \alpha $$ is a learning rate, $$CD$$ means a circuit depth, $$ G_1 G_2 $$ are the number of single and dual gate operations, $$ \omega $$ is the measurement error rate and $$ M $$ is the number of measurement.
 
 ### 2. Problems & Observation
 
-* Unfortunately, EQC framework is not scalable because it requires simulator results to update the model
+* Even though EQC framework utilized multiple quantum devices, it used quantum simulator (not a real quantum machine) to calculate the loss value during training. On the contrary, typical ensemble training requires all results from all models to calculate the loss value with simple average or majority voting (in this case, all results from all the real quantum devices).
+
+* Without simulator, an ensemble training needs results from all the devices at every epoch, which slower the training due to another accesses to all the quantum machines.
+
+* Also, the performance of VQA varies depending on machine status.   
 
 ### 3. Challenges & Idea
-Chaellenges :
-(1) How to boost training speed?
 
-(2) How to show robust performance?
+* Goal: Fast and Robust Quantum Ensemble Training with Real Quantum Machines
 
-Reseach Directions : 
-(1) Quantum Neural Architecture Searching for Multiple Quantum Machines 
-Generate optimal circuit architecture for quantum ensemble learning
+* Challenges:
+    * (1) How to boost training speed?
+    * (2) How to be robust to dynamically changing noise?
 
-(2) Optimize Parameterized Quantum Circuit for Multiple Quantum Machines
-Optimize the given circuit for quantum ensemble learning 
+* Ideas:
+    * (1) How to boost training speed?: I follow the EQC framework but the training is done with real machines, not with simulator. For further acceleration, I select a primary device which is more accessible and reliable, then aggressively optimize the given VQA for the primary device while reducing the number of total SWAP gates. This approach will reduce $$ CD $$ and $$ G_1 G_2 $$. 
+
+    * (2) How to be robust to dynamically changing noise?:
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/overall_arch.png" title="context" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Fig 1. A conceptual illustration of proposed framework.
+</div>
 
 
 4. Implementations
