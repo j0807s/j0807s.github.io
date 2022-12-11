@@ -61,22 +61,22 @@ category: work
 
 * Also, the performance of VQA varies depending on dynamically changing machine noise.
 
-* *<u>Problems</u>*
+* *<u>Problems</u>*:
 * (1) Quantum ensemble training with accessing all quantum machines is expensive (i.e., time-consuming).
 * (2) When the noise level becomes different, the performance of the learned model varies.
 
-### 3. Challenges & Idea
+### 3. Challenges & Ideas
 
 * Challenges:
-    * (1) How to boost quantum ensemble training? 
+    * (1) How to boost quantum ensemble training speed? 
     * (2) How the model to be robust against the dynamically changing noise?
 
 * Ideas:
     * (1) Topolgies-aware optimization and (2) noise-aware training/inference
 
-    * based on the EQC framework without using simulator, the proposed framework selects a primary device which is more reliable and more accessible among all given devices. Then, it resynthesizes the given circuit toward topologies-friendly circuit that has samller number of total SWAP gates. This approach reduces the above $$ CD $$ and $$ G_1 G_2 $$, which means the new circuit is likely to converge faster. Re-synthesized circuit should have the similar expressibility and entangling capability with the original circuit.
+    * Based on the EQC framework without using simulator, the proposed framework selects a primary device which is more reliable and more accessible among all given devices. Then, it resynthesizes the given circuit toward topologies-friendly circuit that has samller number of total SWAP gates. This approach reduces the above $$ CD $$ and $$ G_1 G_2 $$, which means the new circuit is likely to converge faster. Re-synthesized circuit should have the similar expressibility and entangling capability with the original circuit.
 
-    * According to the Pauli Twirling Approximation (PTA), the effect of Pauli errors is the random insertion of Pauli X, Y, and Z gates to the model with a probability distribution of a device. Thus, my framwork randomly inserts Pauli gates during training and inference on other devices as much as the distribution difference between the primary device and others.
+    * According to the Pauli Twirling Approximation (PTA), the effect of Pauli errors is the random insertion of Pauli gates to the model with a probability distribution of a device. Thus, my framwork randomly inserts Pauli gates during training and inference on other devices as much as the distribution difference between the primary device and others.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -88,8 +88,8 @@ category: work
 </div>
 
 
-4. Implementations
+### 4. Implementations
 
-5. Results
+### 5. Results
 
-6. References
+### 6. References
