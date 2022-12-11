@@ -74,7 +74,7 @@ category: work
 * Ideas:
     * (1) Topolgies-aware optimization and (2) noise-aware training/inference
 
-    * Under the EQC framework without using simulator, the proposed framework selects a primary device which is more reliable and more accessible among all given devices. Then, it resynthesizes the given circuit toward topologies-friendly circuit that has samller number of total SWAP gates. This approach reduces the above $$ CD $$ and $$ G_1 G_2 $$, which means the new circuit is likely to converge faster. Re-synthesized circuit should have the similar expressibility and entangling capability with the original circuit.
+    * based on the EQC framework without using simulator, the proposed framework selects a primary device which is more reliable and more accessible among all given devices. Then, it resynthesizes the given circuit toward topologies-friendly circuit that has samller number of total SWAP gates. This approach reduces the above $$ CD $$ and $$ G_1 G_2 $$, which means the new circuit is likely to converge faster. Re-synthesized circuit should have the similar expressibility and entangling capability with the original circuit.
 
     * According to the Pauli Twirling Approximation (PTA), the effect of Pauli errors is the random insertion of Pauli X, Y, and Z gates to the model with a probability distribution of a device. Thus, my framwork randomly inserts Pauli gates during training and inference on other devices as much as the distribution difference between the primary device and others.
 
