@@ -53,7 +53,7 @@ category: work
 
 * Where, $$ \alpha $$ is a learning rate, $$CD$$ means a circuit depth, $$ G_1 G_2 $$ are the number of single and dual gate operations, $$ \omega $$ is the measurement error rate and $$ M $$ is the number of measurement.
 
-### 2. Problems
+### 2. Problems & Observations
 
 * Even though EQC framework utilized multiple real quantum devices, it used a quantum simulator to calculate the loss value during training. Thus, EQC is not scalable.
 
@@ -65,6 +65,15 @@ category: work
 * (1) Quantum ensemble training with accessing all quantum machines is expensive (i.e., time-consuming).
 * (2) When the noise level becomes different, the performance of the learned model varies.
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/observations.png" title="context" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Fig 2. Observation data regarding EQC framework. 
+</div>
+
 ### 3. Challenges & Ideas
 
 * Challenges:
@@ -74,22 +83,31 @@ category: work
 * Ideas:
     * (1) Topolgies-aware optimization and (2) noise-aware training/inference
 
-    * Based on the EQC framework without using simulator, the proposed framework selects a primary device which is more reliable and more accessible among all given devices. Then, it resynthesizes the given circuit toward topologies-friendly circuit that has samller number of total SWAP gates. This approach reduces the above $$ CD $$ and $$ G_1 G_2 $$, which means the new circuit is likely to converge faster. Re-synthesized circuit should have the similar expressibility and entangling capability with the original circuit.
+    * Based on the EQC framework without using simulator, the proposed framework selects a primary device which is more reliable and more accessible among all given devices. Then, it resynthesizes the given circuit toward topologies-friendly circuit that has smaller number of total SWAP gates. This approach reduces the above $$ CD $$ and $$ G_1 G_2 $$, which means the new circuit is likely to converge faster. Re-synthesized circuit should have the similar expressibility and entangling capability with the original circuit.
 
     * According to the Pauli Twirling Approximation (PTA), the effect of Pauli errors is the random insertion of Pauli gates to the model with a probability distribution of a device. Thus, my framwork randomly inserts Pauli gates during training and inference on other devices as much as the distribution difference between the primary device and others.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/overall_arch.png" title="context" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/overall_framework.png" title="context" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Fig 2. A conceptual illustration of proposed framework.
+    Fig 3. An overview of the proposed framework.
 </div>
 
 
 ### 4. Implementations
 
 ### 5. Results
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/initial_result.png" title="context" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Fig 4. An initial result of the proposed framework. 
+</div>
 
 ### 6. References
