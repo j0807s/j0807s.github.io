@@ -9,8 +9,6 @@ category: work
 
 ### 1. Context
 
-#### *<u>Quantum Machine Learning</u>*
-
 * Quantum machine learning is one of the promising applications for Noisy Intermediate-Scale Quantum devices, which have a small number of noisy qubits 
 
 * Quantum machine learning trains Parameterized Quantum Circuit (PQC) that have trainable parameterized gates following the optimization process of machine learning
@@ -23,7 +21,7 @@ category: work
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/prj_observation.png" title="context" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/prj2_observation.png" title="context" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
