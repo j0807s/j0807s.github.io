@@ -36,7 +36,7 @@ category: work
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/prj2_implemenation.png" title="context" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/prj2_implementation.png" title="context" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -46,20 +46,19 @@ category: work
 ### 4. Evaluation Methodolgy
 * Optimizer: SGD, Pruning ratio: 20%, Loss: CrossEntropy Dataset: downsampled binary MNIST (0,1), Evaluated circuit: circuit 1, 3, 5, 9 from [1]
 
-
 ### 5. Results
 * With pruning ratio 0.2, the idea achieved an average accuracy improvement of 2% and training time reduction of 17%
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/prj2_results_1.png" title="context" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/total_results_1.png" title="context" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/prj2_result_2.png" title="context" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/total_results_2.png" title="context" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

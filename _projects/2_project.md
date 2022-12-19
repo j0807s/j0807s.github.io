@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Quantum Ensemble Learning
+title: Ensembled Quantum Computing
 description: 
 img: assets/img/overall_arch.png
 importance: 1
@@ -55,8 +55,6 @@ category: work
 
 ### 2. Problems & Observations
 
-* Even though EQC framework utilized multiple real quantum devices, it used a quantum simulator to calculate the loss value during training. Thus, EQC is not scalable.
-
 * While a typical ensemble training needs results from all the devices at every epoch, which is slow due to another accesses to all the quantum machines.
 
 * Also, the performance of VQA varies depending on dynamically changing machine noise.
@@ -71,7 +69,7 @@ category: work
     </div>
 </div>
 <div class="caption">
-    Fig 2. Observation data regarding EQC framework. 
+    Fig 2. Observation data of the EQC framework. The left figure describes the performance variation depending on devices and the right figure shows irregular access patterns of the EQC framework.
 </div>
 
 ### 3. Challenges & Ideas
@@ -83,7 +81,7 @@ category: work
 * Ideas:
     * (1) Topolgies-aware optimization and (2) noise-aware training/inference
 
-    * Based on the EQC framework without using simulator, the proposed framework selects a primary device which is more reliable and more accessible among all given devices. Then, it resynthesizes the given circuit toward topologies-friendly circuit that has smaller number of total SWAP gates. This approach reduces the above $$ CD $$ and $$ G_1 G_2 $$, which means the new circuit is likely to converge faster. Re-synthesized circuit should have the similar expressibility and entangling capability with the original circuit.
+    * Based on the EQC framework, the proposed framework selects a primary device which is more reliable and more accessible among all given devices. Then, it resynthesizes the given circuit toward topologies-friendly circuit that has smaller number of total SWAP gates. This approach reduces the above $$ CD $$ and $$ G_1 G_2 $$, which means the new circuit is likely to converge faster. Re-synthesized circuit should have the similar expressibility and entangling capability with the original circuit.
 
     * According to the Pauli Twirling Approximation (PTA), the effect of Pauli errors is the random insertion of Pauli gates to the model with a probability distribution of a device. Thus, my framwork randomly inserts Pauli gates during training and inference on other devices as much as the distribution difference between the primary device and others.
 
