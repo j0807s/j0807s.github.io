@@ -13,7 +13,7 @@ category: work
 
 ### 2. Ideas
 
-* Adopted different learning rates for QNN and CNN would improve the hybrid model performance.
+* Adopted different learning rates for QNN and CNN might improve the hybrid model performance.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
