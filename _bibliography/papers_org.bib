@@ -1,5 +1,39 @@
 ---
 ---
+@inproceedings{kim2022ISCF,
+  abbr = {preprint},
+  title={Integrative Solution for Catastrophic Forgetting in Data-Free Class Incremental Learning}, 
+  author={Kim, Yujin and Kang, Minsoo and Kim, Junsu and Kim, Suhyun}, 
+  year={2023},
+  abstract={Data-Free Class Incremental Learning (DFCIL) scenario en-
+ables the model to continually learn without accessing old
+data, which prevents the training process from violating
+data privacy. However, we observe that previous DFCIL ap-
+proaches still severely suffer from catastrophic forgetting
+caused by the class imbalance problem. To overcome catas-
+trophic forgetting from class imbalance, we introduce Inte-
+grative Solution for Catastrophic Forgetting (ISCF), a novel
+DFCIL framework consisting of Weight Equalizer (WEQ)
+and the combined knowledge distillation approach. We firstly
+propose Weight Equalizer (WEQ) to solve the class imbal-
+ance issue by correcting biased weights toward new classes in
+the classification head. WEQ makes the weight norms of the
+current linear head follow the average of weight norms in the
+previous training step. Furthermore, we suggest exploiting
+Similarity Preserving Knowledge Distillation (SPKD) with
+Logit Knowledge Distillation (LKD) that distills the features
+of intermediate layers and representations of the previous lin-
+ear head to gain more stability (i.e., not to forget previous
+knowledge). Extensive experiments on CIFAR-100 and Tiny-
+ImageNet demonstrate significant accuracy improvement of
+our proposed method over previous works. We also show that
+our proposed method largely remains the previously learned
+knowledge compared to the existing methods},
+  kind = {conference},
+  selected = {true},
+  pdf = {kim2022ISCF.pdf},
+}
+
 @inproceedings{kim2021hammerfilter,
   abbr = {ICCD},
   bibtex_show = {true},
