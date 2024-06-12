@@ -1,5 +1,47 @@
 ---
 ---
+
+@inproceedings{jeon2024vitbit,
+  abbr = {ICPP},
+  bibtex_show = {true},
+  title={VitBit: Enhancing Embedded GPU Performance for AI Workloads through Register Operand Packing}, 
+  author={Jeon, Jaebeom and Gil, Minseong and Kim, Junsu and Park, Jaeyong and Koo, Gunjae and Yoon, Myung Kuk and Oh, Yunho},
+  booktitle={The 53rd International Conference on Parallel Processing (ICPP 2024)},
+  abstract={The rapid advancement of Artificial Intelligence (AI) necessitates
+significant enhancements in the energy efficiency of Graphics Pro-
+cessing Units (GPUs) for Deep Neural Network (DNN) workloads.
+Such a challenge is particularly critical for embedded GPUs, which
+operate within stringent power constraints. Traditional GPU ar-
+chitectures, designed to support a limited set of numeric formats,
+face challenges in meeting the diverse requirements of modern
+AI applications. These applications demand support for various
+numeric formats to optimize computational speed and efficiency.
+This paper proposes VitBit, a novel software technique designed
+to overcome these limitations by enabling efficient processing of
+arbitrary integer format values, especially those 8 bits or fewer,
+which are increasingly prevalent in AI workloads. VitBit introduces
+two key innovations: the packing of arbitrary integer formats for
+parallel computation and the simultaneous execution of Tensor
+cores, INT and FP (Integer and Floating-Point) CUDA cores. This
+approach leverages the architectural features of modern GPUs, such
+as those based on NVIDIA Ampere architecture, which allows con-
+current operation of FP32 and INT32 cores at full throughput. Our
+evaluation of VitBit on NVIDIA Jetson AGX Orin demonstrates
+substantial improvements in arithmetic density and peak through-
+put, achieving up to a 22% reduction in execution time for bench-
+mark AI workloads without compromising computational accuracy.
+VitBit effectively bridges the gap between current hardware capa-
+bilities and the computational demands of AI, offering a scalable
+and cost-effective method for enhancing GPU performance in AI
+applications.},
+  kind = {conference},
+  selected = {true},
+  year={2024},
+  pdf = {jeon2024vitbit.pdf},
+}
+
+
+
 @inproceedings{kim2021hammerfilter,
   abbr = {ICCD},
   bibtex_show = {true},
