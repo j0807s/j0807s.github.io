@@ -16,9 +16,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
----
+
+<hr>
+
 I am seeking a Ph.D. opportunity starting in the Fall of 2025. I would greatly appreciate it if you could contact me regarding any available opportunities.
----
+
+<hr>
 
 I am an M.S. student in the Department of Electrical Engineering at Korea University, under the guidance of [Prof. Yunho Oh](https://yunho-oh.github.io/).
 
