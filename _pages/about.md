@@ -15,8 +15,11 @@ news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+
+---
 I am seeking a Ph.D. opportunity starting in the Fall of 2025. I would greatly appreciate it if you could contact me regarding any available opportunities.
 ---
+
 I am an M.S. student in the Department of Electrical Engineering at Korea University, under the guidance of [Prof. Yunho Oh](https://yunho-oh.github.io/).
 
 My research interests lie in the areas of Computer Architecture and Systems, Memory Systems, and Artificial Intelligence (AI). I aim to bridge the gap between computer architecture and emerging applications via algorithm-hardware co-design. Recently, I have focused on orchestrating heterogeneity in computer architecture to achieve high performance and energy-efficiency for emerging applications. My research contributions include:
