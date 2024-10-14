@@ -1,6 +1,27 @@
 ---
 ---
 
+@inproceedings{gil2024tlp,
+  abbr = {ESL},
+  bibtex_show = {true},
+  title={TLP Balancer: Predictive Thread Allocation for Multi-Tenant Inference in Embedded GPUs}, 
+  author={Gil, Minseong and Jeon, Jaebeom and  and Kim, Junsu and Park, Jaeyong and Koo, Gunjae and Yoon, Myung Kuk and Oh, Yunho},
+  booktitle={The IEEE Embedded Systems Letters},
+  abstract={This paper introduces a novel software technique to optimize thread allocation for merged and fused kernels in multi-tenant inference systems on embedded Graphics Processing Units (GPUs).
+Embedded systems equipped with GPUs face challenges in managing diverse deep learning workloads while adhering to Quality-of-Service (QoS) standards, primarily due to limited hardware resources and the varied nature of deep learning models. 
+Prior work has relied on static thread allocation strategies, often leading to suboptimal hardware utilization. 
+To address these challenges, we propose a new software technique called TLP Balancer. 
+TLP Balancer automatically identifies the best-performing number of threads based on performance modeling. 
+This approach significantly enhances hardware utilization and ensures QoS compliance, outperforming traditional fixed-thread allocation methods. 
+Our evaluation shows that TLP Balancer improves throughput by 40\% compared to the state-of-the-art automated kernel merge and fusion techniques.
+},
+  kind = {journal},
+  selected = {true},
+  year={2024},
+  pdf = {gil2024tlp.pdf},
+}
+
+
 @inproceedings{jeon2024vitbit,
   abbr = {ICPP},
   bibtex_show = {true},
