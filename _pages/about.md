@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 
 <hr>
 
-I am seeking a Ph.D. opportunity starting in the Fall of 2025. I would greatly appreciate it if you could contact me regarding any available opportunities.
+I am seeking a Ph.D. opportunity starting in the Fall of 2025. I would greatly appreciate it if you could contact me regarding available opportunities.
 
 <hr>
 
