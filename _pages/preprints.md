@@ -3,7 +3,7 @@ layout: page
 permalink: /preprints/
 title: Preprints
 description: 
-years: [2024]
+years:
 nav: true
 nav_order: 4
 ---
