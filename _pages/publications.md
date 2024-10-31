@@ -9,8 +9,7 @@ nav_order: 1
 ---
 <!-- _pages/publications.md -->
 <div class="publications">
-<h2>Publications</h2>
-            {% bibliography -f papers -q @*[selected=true]* %}
+  {% bibliography -f papers -q @*[selected=true]* %}
 </div>
 
 
