@@ -12,11 +12,7 @@ nav_order: 1
 <h2>Publications</h2>
             {% bibliography -f papers -q @*[selected=true]* %}
 </div>
-<!-- {%- for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{ y }}]*[selected=true] %}
-  {% bibliography -f papers -q @*[year={{ y }}]*[selected=true] %}
-{% endfor %} -->
+
 
 
 
