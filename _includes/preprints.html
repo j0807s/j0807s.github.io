@@ -1,14 +1,5 @@
 
           <div class="publications">
             <h2>Preprints</h2>
-            <ul>
-              <li>
-                <strong>Memory Oversubscription-aware Tensor Migration Scheduling for GPU Unified Storage Architecture </strong><br>
-                Authors: 1st author <br>
-              </li>
-              <li>
-                <strong>Salienct Frequency-aware Exemplar Compression for Online Continual Learning </strong><br>
-                Authors: 1st author<br>
-              </li>
-            </ul>
+            {% bibliography -f papers -q @*[selected=false]* %}
           </div>
