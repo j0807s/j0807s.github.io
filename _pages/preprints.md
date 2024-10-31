@@ -8,7 +8,7 @@ nav: true
 nav_order: 1
 ---
 <!-- _pages/preprints.md -->
-<div class="publications">
+<div class="preprints">
 
 {%- for y in page.years %}
   <h2 class="year">{{y}}</h2>
