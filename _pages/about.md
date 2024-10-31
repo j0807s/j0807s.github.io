@@ -30,6 +30,6 @@ My research interests lie in the areas of Computer Architecture and Systems, Mem
 
 * **Heterogenous Memory**: Developed a memory oversubscription-aware tensor migration scheduling for a unified memory-storage architecture [P1], analyzed the behavior of a real CXL-based system on datacenter workloads to uncover open challenges in the emerging hardware platform [P3].
 * **Heterogenous Cores**: Enabled software support for arbitrary integer formats on GPUs by software-assisted packing and load balancing between Tensor, INT and FP CUDA cores [ICPP'24]. Accelerated Yinyang K-Means via dynamic thread allocation for CPU and GPU on mobile platform [P4].
-* **High performance AI Frameworks**: Developed dynamic thread allocation for a multi-tenant GPU [ESL'24], memory-efficient continual learning [P2, P5].
+* **High Performance AI Frameworks**: Developed dynamic thread allocation for a multi-tenant GPU [ESL'24], memory-efficient continual learning [P2, P5].
 
 Before I joined Korea University, I worked on developing memory-efficient continual learning frameworks with [Dr. Suhyun Kim](https://www.linkedin.com/in/suhyunk/?originalSubdomain=kr) at Korea Institute of Science and Technology (KIST) in 2022 [P2, P5] and on Rowhammer mitigation with low overhead at Hanyang University in 2021 [ICCD'21]. I received my B.S. with honors from [Hanyang University](https://www.hanyang.ac.kr/web/eng) in 2021.
