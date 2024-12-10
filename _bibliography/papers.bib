@@ -1,5 +1,20 @@
 ---
 ---
+@inproceedings{kim2024sfec,
+  abbr = {ESL},
+  bibtex_show = {true},
+  title={Salient Frequency-aware Exemplar Compression for Resource-constrained Online Continual Learning}, 
+  author={Kim, Junsu and Kim, Suhyun},
+  booktitle={The 39th Annual AAAI Conference on Artificial Intelligence},
+  abstract={Online Class-Incremental Learning (OCIL) enables a model to learn new classes from a data stream. Since data stream samples are seen only once and the capacity of storage is constrained, OCIL is particularly susceptible to Catastrophic Forgetting (CF). While exemplar replay methods alleviate CF by storing representative samples, the limited capacity of the buffer inhibits capturing the entire old data distribution, leading to CF. In this regard, recent papers suggest image compression for better memory usage. However, existing methods raise two concerns: computational overhead and compression defects. On one hand, computational overhead can limit their applicability in OCIL settings, as models might miss learning opportunities from the current streaming data if computational resources are budgeted and preoccupied with compression. On the other hand, typical compression schemes demanding low computational overhead, such as JPEG, introduce noise detrimental to training. To address these issues, we propose Salient Frequency-aware Exemplar Compression (SFEC), an efficient and effective JPEG-based compression framework. SFEC exploits saliency information in the frequency domain to reduce negative impacts from compression artifacts for learning. Moreover, SFEC employs weighted sampling for exemplar elimination based on the distance between raw and compressed data to mitigate artifacts further. Our experiments employing the baseline OCIL method on benchmark datasets such as CIFAR-100 and Mini-ImageNet demonstrate the superiority of SFEC over previous exemplar compression methods in streaming scenarios.
+},
+  kind = {journal},
+  selected = {true},
+  year={2024},
+  pdf = {gil2024tlp.pdf},
+}
+
+
 
 @inproceedings{gil2024tlp,
   abbr = {ESL},
@@ -15,10 +30,9 @@ TLP Balancer automatically identifies the best-performing number of threads base
 This approach significantly enhances hardware utilization and ensures QoS compliance, outperforming traditional fixed-thread allocation methods. 
 Our evaluation shows that TLP Balancer improves throughput by 40\% compared to the state-of-the-art automated kernel merge and fusion techniques.
 },
-  kind = {journal},
+  kind = {conference},
   selected = {true},
-  year={2024},
-  pdf = {gil2024tlp.pdf},
+  year={2025},
 }
 
 
@@ -92,17 +106,8 @@ applications.},
   selected = {false},
 }
 
-@inproceedings{kim2024SFEC,
-  abbr = {P2},
-  title={Salient Frequency-aware Exemplar Compression for Online Continual Learning}, 
-  author={author, 1st},
-  booktitle={The 39th Annual AAAI Conference on Artificial Intelligence (Under Review in AAAI'25, got 4 weak acceptances)},
-  kind = {conference},
-  selected = {false},
-}
-
 @inproceedings{kim2024CXL,
-  abbr = {P3},
+  abbr = {P2},
   title={Mitigating Software Overhead in Tiered Memory-based Accelerator for Training}, 
   author={co-author},
   booktitle={52th The International Symposium on Computer Architecture (Under Review in ISCA'25)},
@@ -111,7 +116,7 @@ applications.},
 }
 
 @inproceedings{kim2024CXL,
-  abbr = {P4},
+  abbr = {P3},
   title={Hardware Supports for Processing Arbitrary Numeric Formats on GPUs}, 
   author={co-author},
   booktitle={52th The International Symposium on Computer Architecture (Under Review in ISCA'25)},
@@ -120,7 +125,7 @@ applications.},
 }
 
 @inproceedings{kim2024CXL,
-  abbr = {P5},
+  abbr = {P4},
   title={A Behavioral Analysis of CXL Memory Systems}, 
   author={co-author},
   booktitle={ACM SIGMETRICS 2025 (Under Review in SIGMETRICS'25)},
@@ -129,7 +134,7 @@ applications.},
 }
 
 @inproceedings{kim2024yinyang,
-  abbr = {P6},
+  abbr = {P5},
   title={Accelerating Yinyang K-Means on Heterogeneous Platform}, 
   author={co-author},
   booktitle={39th IEEE International Parallel & Distributed Processing Symposium (Under Review in IPDPS'25, got 3 borderlines)},
@@ -138,7 +143,7 @@ applications.},
 }
 
 @article{kim2024dfcil,
-  abbr = {P7},
+  abbr = {P6},
   title={Improving Performance of Data-Free Continual Learning}, 
   author={co-author},
   booktitle={Ready for Submission},
